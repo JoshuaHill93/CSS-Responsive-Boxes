@@ -25,6 +25,7 @@ aside{
 
 main{
   background-color: blue;
+  height: 100px;
 }
   
 header {
@@ -53,20 +54,23 @@ aside > div {
 }
 
 main{
-  flex-grow: 5;
+  flex-grow: 4;
  
 }
 
 @media(min-width:600px){
-  aside{
+  .aside{
     flex-direction: row;
     }
     .aside , div{
-      height: 10em;
+      height: 8em;
+      
+      
       
     }
     main{
      flex: 2;
+     width:125px;
       
       
       
